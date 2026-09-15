@@ -3,9 +3,9 @@
 # bump: librabbitmq /LIBRABBITMQ_VERSION=([\d.]+)/ https://github.com/alanxz/rabbitmq-c.git|*
 # bump: librabbitmq after ./hashupdate Dockerfile LIBRABBITMQ $LATEST
 # bump: librabbitmq link "ChangeLog" https://github.com/alanxz/rabbitmq-c/blob/master/ChangeLog.md
-ARG LIBRABBITMQ_VERSION=0.17.0
+ARG LIBRABBITMQ_VERSION=0.18.0
 ARG LIBRABBITMQ_URL="https://github.com/alanxz/rabbitmq-c/archive/refs/tags/v$LIBRABBITMQ_VERSION.tar.gz"
-ARG LIBRABBITMQ_SHA256=66c36901178c872565f732468e91688f6280c18810fe8b21a199d46347ba3a0c
+ARG LIBRABBITMQ_SHA256=d57782c950ec04c7da3692cad6f02059dad6df90e588e2f6a1def632fa59f7d7
 
 # Must be specified
 ARG ALPINE_VERSION
